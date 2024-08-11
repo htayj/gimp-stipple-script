@@ -1,0 +1,13 @@
+A very simple GIMP script to convert shading to stipples
+
+* limitations
+I wrote this several years ago using gimp's script-fu scheme plugin system. It has a number of limitations:
+- lack of blending between shades
+- requires posterization of the image
+- requires the image to be in grayscale color mode
+- very slow and eats memory
+
+it is probably best not to use this script, checkout out [[https://www.gimp-forum.net/Thread-ofn-manual-stipple][ofn manual stipple]] instead. 
+
+* examples
+[[./example/flag_card_pre_stipple.png]] [[./example/flag_card_with_stipples.png]]
